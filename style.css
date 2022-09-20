@@ -8,7 +8,7 @@
 
 body{
     display: flex;
-    justify-content: ce
+    justify-content: center;
     background-color: black; 
     margin-top: 50px;
 }
@@ -33,15 +33,17 @@ body{
     display: flex;
     align-items: center;
     flex-direction: row;
+    flex:100%;
 }
 .logo {
 }
 .titulo{
     padding-left: 2%;
+    flex:70%;
 }
 
 .dots{
-   
+
 
 }
 .bottom-post{
@@ -65,7 +67,12 @@ body{
 }
 .reenviar{
     padding-left: 1%;
+    flex:60%;
 }
 .guardar{
-
 }
+.texto{
+    padding-top: 4%;
+}
+
+
